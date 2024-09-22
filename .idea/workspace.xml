@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1ab1e3-3a41-45be-a430-1287f93eb487" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/HomepageLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/ProductLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomepagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/UtilMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest/ProductsPageTest.java" afterDir="false" />
+    <list default="true" id="9d1ab1e3-3a41-45be-a430-1287f93eb487" name="Changes" comment="Add Test Classes and Methods for Homepage and Product Page&#10;Successfull execution till Product 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators/ProductLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators/ProductLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/UtilMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/UtilMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingCartTest/ProductsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest/ProductsPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1726833101484</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Test Classes and Methods for Homepage and Product Page&#10;Successfull execution till Product 1">
+      <created>1726948263465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726948263465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,13 +122,32 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Test Classes and Methods for Homepage and Product Page&#10;Successfull execution till Product 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Test Classes and Methods for Homepage and Product Page&#10;Successfull execution till Product 1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Pages/ProductsPage.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/ProductsPage.java</url>
           <line>16</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ShoppingCartTest/HomePageTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/HomepagePage.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

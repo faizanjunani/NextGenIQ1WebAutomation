@@ -13,7 +13,7 @@ public class ProductsPage {
 
     public void checkProductPriceonSearchPage()
     {
-        utils.scrollWebPageToElement(270);
+        utils.scrollWebPageToElement(500);
         product1Price = utils.getElementText(productLocators.getPriceProduct1);
         System.out.println("Price of Product 1 is "+product1Price);
         product2Price = utils.getElementText(productLocators.getPriceProduct2);

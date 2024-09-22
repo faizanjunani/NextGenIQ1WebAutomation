@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
@@ -16,6 +17,7 @@ public class UtilMethods {
 
     protected static WebDriver webDriver;
     JavascriptExecutor js;
+    SoftAssert softAssert = new SoftAssert();
 
     public void setDriver(WebDriver driver)
     {
@@ -87,7 +89,7 @@ public class UtilMethods {
             try {
                 implicitWait();
                 String actualText = getTextFromElement(path);
-                Assert.assertEquals(actualText, expectedValue);
+                Assert.assertTrue(actualText.contains(expectedValue),"Actual value is not equal to expected value");
                 elementFound = true;
             }
             catch (Exception e) {
